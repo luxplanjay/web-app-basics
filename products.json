@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-2_large.png?format=webp&v=1530129318",
+    "name": "Кроссовки",
+    "price": 200
+  },
+  {
+    "id": "1",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-5_large.png?format=webp&v=1530129458",
+    "name": "Часы",
+    "price": 400
+  },
+  {
+    "id": "2",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-3_large.png?format=webp&v=1530129341",
+    "name": "Очки",
+    "price": 150
+  },
+  {
+    "id": "3",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-1_large.png?format=webp&v=1530129292",
+    "name": "Рюкзак",
+    "price": 320
+  },
+  {
+    "id": "4",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-4_large.png?format=webp&v=1530129360",
+    "name": "Кепка",
+    "price": 120
+  },
+  {
+    "id": "5",
+    "image": "https://cdn.shopify.com/s/files/1/0533/2089/files/placeholder-images-product-6_large.png?format=webp&v=1530129477",
+    "name": "Лампа",
+    "price": 240
+  }
+]

@@ -1,0 +1,106 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Компонент section */
+.section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #3f51b5;
+}
+
+.section__heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+/* Компонент container */
+.container {
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Компонент grid */
+.grid {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -16px;
+  margin-top: 0;
+}
+
+.grid__item {
+  flex-basis: calc((100% - 6 * 8px) / 3);
+  min-width: 240px;
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+/* Компонент product */
+.product {
+  position: relative;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.product__name {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.product__price {
+  margin: 0;
+}
+
+.product__button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+/* Компонент button */
+.button {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+.button__icon {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  background-image: url('https://www.flaticon.com/svg/static/icons/svg/891/891462.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button__icon--start {
+  margin-right: 10px;
+}
+
+.button__icon--end {
+  margin-left: 10px;
+}
